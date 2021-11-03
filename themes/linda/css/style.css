@@ -21,6 +21,25 @@ html, body {
     height: 100%;
 }
 
+div.nav ul li:first-child {
+    background-color: red;
+
+}
+
+div.nav ul li:last-child {
+    background-color: blue;
+    color: white;
+
+}
+
+.blackbox {
+    box-sizing: content-box;
+    width: 600px;
+    height: 100px;
+    background-color: black;
+}
+
+
 /* Placement */
 
 body {
@@ -31,6 +50,8 @@ body {
 .main {
     flex: 1 0 auto;
 }
+
+
 
 .header, .footer {
     flex: 0 0 auto;
